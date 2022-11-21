@@ -1,0 +1,146 @@
+h2{
+  text-transform: uppercase;
+}
+
+.red{
+  color: red;
+}
+
+.black{
+  color: black;
+}
+
+body{
+  color: #565;
+  line-height: 1.9;
+  font-size: 15px;
+}
+
+.section-padding{
+  padding: 80px 0;
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+/* .section-title::before{
+  height: 5px;
+  width: 80px;
+  background-color: #66A908;
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 45%;
+}
+
+.section-title::after{
+  height: 5px;
+  width: 30px;
+  background-color: red;
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 45%;
+  margin-left: 23px;
+} */
+
+.section-title .red-border{
+  width: 50px;
+  height: 5px;
+  background-color: red;
+  display: inline-block;
+}
+.section-title .black-border {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  display: inline-block;
+}
+
+.single-feature-item{
+  margin-bottom: 40px;
+}
+
+.bordered-img{
+  background-color: #ddd;
+  height: 120px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #fff;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bordered-img-1{
+  background-image: url(img/1.jpg);
+}
+
+.bordered-img-2{
+  background-image: url(img/2.jpg);
+}
+
+.bordered-img-3{
+  background-image: url(img/3.jpg);
+}
+
+.bordered-img::after{
+  background-color: #66A908;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  height: 100%;
+  width: 100%;
+  content: '';
+  z-index: -1;
+}
+
+.single-feature-item h3{
+  border-bottom: 1px dashed #BEDC9A;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.big-featured-bordered-img{
+  height: 400px;
+  width: 100%;
+  background-color: #ddd;
+  margin-left: 30px;
+  position: relative;
+}
+
+.big-featured-bordered-img::after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/4.jpg);
+  content: '';
+  opacity: .5;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.big-featured-bordered-img::before{
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: #66A908;
+  content: '';
+  z-index: -1;
+}
+
+.big-featured-bordered-img{
+  background-image: url(img/5.png);
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width: 991px) {
+
+.single-feature-item {
+    width: 110%;
+}
+
+.bordered-img {
+    width: 115%;
+}
+}
+
+@media screen and (max-width: 767px){
+  .single-feature-item {
+    width: 100%;
+    height: 30%;
+}
+
+h3 {
+  padding: 30px 0;
+}
+
+.bordered-img {
+  width: 100%;
+}
+
+.big-featured-bordered-img {
+  padding: 0;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.bordered-img{
+  height: 400px;
+}
+}
